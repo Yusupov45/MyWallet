@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    height: 70px;
+    overflow: hidden;
+}
+
+.come-in {
+    margin-right: 400px;
+    margin-top: 15px;
+    color: white;
+}
+
+.name-user {
+    margin-right: 0;
+    margin-top: 15px;
+    color: white;
+}
+
+header > h1 > a {
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.submit {
+    color: white;
+    background-color: black;
+    height: 35px;
+    margin: 10px;
+    width: 100%;
+    border: 0;
+}
+
+
+.form {
+    background-color: lightcyan;
+    padding: 60px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.input {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    border: 0;
+    height: 35px;
+}
+
+.error-massage {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
